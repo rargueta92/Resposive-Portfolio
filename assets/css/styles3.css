@@ -1,0 +1,322 @@
+/* header */
+
+h1 {
+    
+    background-color: #4aaaa4;
+
+    color: #ffffff;
+
+    padding: 20px;
+
+    display: inline-block;
+
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+    margin-bottom: 0;
+
+}
+
+/* header */
+
+h2 {
+    color: #4aaaa4;
+
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+    border-bottom: 2px solid #cccccc;
+
+    width: 100%;
+
+}
+
+
+html, body {
+
+    height: 100%;
+
+    margin: 0;
+
+
+}
+
+.info {
+    width: 960px;
+
+    margin: 0 auto;
+
+}
+
+
+
+.wrapper {
+
+    margin: auto;
+
+    min-height: 100%;
+
+    margin-bottom: -2px;
+
+    background-color: #eeebe8;
+
+    position: relative; 
+
+
+}
+
+
+#content {
+
+    width:  960px;
+
+    background-color: white;
+
+    margin: 0 auto;
+
+    /* margin-top: -40px; */
+    
+    /* position: absolute; */
+/* 
+    top: 70px;
+
+    right: 280px;
+
+    height: 650px; */
+}
+
+        
+.work {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 0 25px;
+        overflow: auto;
+}
+
+
+.work:nth-child(even) {
+        margin-right: 40px;
+      }
+      
+.work img {
+        width: 100%;
+        border: 0 none;
+    
+      }
+      
+.work h3 {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 30px;
+        color: #ffffff;
+        text-align: center;
+        background: #4aaaa5;
+        border-bottom: 0;
+      }
+      
+.auth-image {
+        float: left;
+        width: 200px;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 25px;
+    }  
+
+
+.link {
+    overflow: hidden;
+    background-color:white;
+    display: inline;
+
+}
+
+/* Style the topnav links */
+.link a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.link a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+.footer {
+
+    background-color: #666666;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin: 0px;
+
+    bottom: 0;
+
+    height: 40px;
+
+    border-top: 8px solid #4aaaa5;
+
+}
+
+/* Media Queries Set up*/
+
+@media screen and (max-width: 980px){
+    
+    .header {
+        width: 100%;
+
+        width: 980px;
+
+    }
+    
+   
+    .wrapper {
+
+        width: 100%;  
+        
+    }
+    
+    
+    #center {
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .header {
+        width: 100%;
+        
+        width: 770px;
+        
+    }
+    
+    
+    h1 {
+        
+        width: 50%;
+        
+        background-color: #4aaaa4;
+        
+        color: black;
+        
+        padding: 20px;
+        
+        display: inline-block;
+        
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+    
+    .info {
+            
+        width: 770px;
+        
+        margin: 0 auto;
+
+
+    }
+    
+    
+    .wrapper {
+        
+        width: 100%;
+        width: 770px;
+        padding: 10px;
+        
+        background-color: rgb(246, 255, 228);
+        
+    }
+
+
+    #content {
+        width: 100%;
+
+        width: 770px;
+    }
+
+    
+    
+    .name[type="text"] {
+        
+        width: 70%;
+    
+        display: block;
+    
+        font-size: 50px;
+    
+        margin: 10px;
+        
+
+    
+        }
+    
+}
+
+@media screen and (max-width: 640px){
+
+    .header {
+        width: 100%;
+        
+        width: 640px;
+        
+    }
+    
+    
+    h1 {
+        
+        width: 50%;
+        
+        background-color: #4aaaa4;
+        
+        color: black;
+        
+        padding: 20px;
+        
+        display: inline-block;
+        
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+    
+    .info {
+            
+        width: 640px;
+        
+        margin: 0 auto;
+
+    }
+    
+    
+    .wrapper {
+        
+        width: 100%;
+        width: 640px;
+        
+        background-color: rgb(246, 255, 228);
+        
+    }
+
+
+    /* #center {
+        width: 100%;
+    } */
+
+    .footer {
+        width: 100%;
+    }
+} 
+
